@@ -1,0 +1,36 @@
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Entities\bin\Debug\Entities.dll
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Entities\bin\Debug\Entities.pdb
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Entities\obj\Debug\Entities.dll
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Entities\obj\Debug\Entities.pdb
+C:\Users\Jundat95\documents\visual studio 2012\Projects\QuanLyKhachSanNew\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\Entities.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\Entities.pdb
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\obj\Debug\Entities.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\obj\Debug\Entities.pdb
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\Entities.dll.config
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\EnvDTE.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\stdole.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\obj\Debug\Entities.csproj.Up2Date
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Entities\bin\Debug\QRCoder.dll

@@ -1,0 +1,46 @@
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Business\bin\Debug\Business.dll
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Business\bin\Debug\Business.pdb
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Business\bin\Debug\DataAccess.dll
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Business\bin\Debug\Entities.dll
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Business\bin\Debug\DataAccess.pdb
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Business\bin\Debug\Entities.pdb
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Business\obj\Debug\Business.dll
+C:\Users\Jundat95\Documents\Visual Studio 2012\Projects\QuanLyKhachSanNew\Business\obj\Debug\Business.pdb
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Business.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Business.pdb
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\DataAccess.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Entities.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\DataAccess.pdb
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Entities.pdb
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\obj\Debug\Business.csproj.Up2Date
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\obj\Debug\Business.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\obj\Debug\Business.pdb
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Business.dll.config
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\EnvDTE.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\stdole.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\DataAccess.dll.config
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\Entities.dll.config
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sukie\OneDrive\Desktop\LTCSDL\BaiTapLon\QuanLyKhachSanNew\Business\bin\Debug\QRCoder.dll
