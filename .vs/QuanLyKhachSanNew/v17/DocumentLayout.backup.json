@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\PROJECT\\HotelManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|d:\\project\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmqlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmqlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|d:\\project\\hotelmanagement\\quanlykhachsannew\\event\\converttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\event\\converttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|d:\\project\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmqlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmqlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmwaitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmwaitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|d:\\project\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmtraphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmtraphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,52 +17,34 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 234,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmWaitForm.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmWaitForm.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmWaitForm.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmWaitForm.cs",
-              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmWaitForm.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:33:26.738Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
           "DockedWidth": 138,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmQLNhanVien.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLNhanVien.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmQLNhanVien.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLNhanVien.cs",
-              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmQLNhanVien.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBgAAAAMAAAAAAAAAA==",
+              "Title": "ConvertType.cs",
+              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\Event\\ConvertType.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\Event\\ConvertType.cs",
+              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\Event\\ConvertType.cs",
+              "RelativeToolTip": "QuanLyKhachSanNew\\Event\\ConvertType.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T15:48:45.23Z",
+              "WhenOpened": "2024-12-29T16:11:32.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmQLNhanVien.cs [Design]",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLNhanVien.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmQLNhanVien.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLNhanVien.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmQLNhanVien.cs [Design]",
+              "Title": "FrmTraPhong.cs",
+              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs",
+              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs",
+              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAtwHAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T15:48:40.283Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-29T15:55:30.39Z",
+              "EditorCaption": ""
             }
           ]
         }
