@@ -1,4 +1,5 @@
-﻿namespace QuanLyKhachSanNew.Report
+﻿using DevExpress.DataAccess.Sql;
+namespace QuanLyKhachSanNew.Report
 {
     partial class ReportNhanVien
     {
