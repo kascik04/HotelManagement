@@ -104,28 +104,50 @@ namespace QuanLyKhachSanNew.FrmChild
 
         private void tblThem_CheckedChanged(object sender, EventArgs e)
         {
-            String maDK = teMaDK.Text.ToString().Trim();
+            String maDK = teMaDK.Text.ToString().Trim(); // Lấy giá trị từ ô nhập mã đăng ký
+
+            // Kiểm tra nếu mã đăng ký bị để trống
+            if (string.IsNullOrEmpty(maDK))
+            {
+                MessageBox.Show("Mã đăng ký không được để trống.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             String maKhach = lueMaKhach.Text.ToString();
             DateTime ngayDangKy = dtpNgayDangKy.DateTime;
+
+            // Kiểm tra và xử lý các trường khác nếu cần
             int soNguoi;
             if (!int.TryParse(teSoNguoi.Text.ToString().Trim(), out soNguoi))
             {
-                MessageBox.Show("Số người phải là một số nguyên hợp lệ.");
+                MessageBox.Show("Số người phải là một số nguyên hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            //Du Lieu chua Co khai bao Null
+
+            // Dữ liệu mặc định
             String nghiChu = "Không Có";
             String maPhong = null;
             int tienDat = 0;
             Nullable<DateTime> dateNull = null;
 
+            // Tạo đối tượng đăng ký và thêm mới
             EtblDangKy dangky = new EtblDangKy(maDK, maKhach, maPhong, ngayDangKy, dateNull, dateNull, tienDat, soNguoi, nghiChu);
-            BtblDangKy.Insert(dangky);
-            MessageBox.Show("Đã Thêm Thông Tin Đăng Ký");
-            //Bat hai group khi them xong
-            dangKy = false;
-            load_Group();
+
+            try
+            {
+                BtblDangKy.Insert(dangky); // Gọi phương thức thêm mới
+                MessageBox.Show("Đã thêm thông tin đăng ký thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Sau khi thêm, chuyển sang trạng thái khác nếu cần
+                dangKy = false;
+                load_Group();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
 
 
         private void checkButton1_CheckedChanged(object sender, EventArgs e)
@@ -142,6 +164,7 @@ namespace QuanLyKhachSanNew.FrmChild
             Nullable<DateTime> dateNull = null;
 
             EtblDangKy dangky = new EtblDangKy(maDK, maKhach, maPhong, ngayDangKy, dateNull, dateNull, tienDat, soNguoi, nghiChu);
+            //BtblPhong.UpdateStatus(maPhong, true, false);
             BtblDangKy.Update(dangky);
             MessageBox.Show("Đã Thêm Phòng Thành Công");
 
@@ -155,21 +178,39 @@ namespace QuanLyKhachSanNew.FrmChild
 
         private void btnLuu_CheckedChanged(object sender, EventArgs e)
         {
-            String maDK = teMaDK.Text.ToString().Trim();
-            String maKhach = lueMaKhach.Text.ToString();
-            DateTime ngayDangKy = dtpNgayDangKy.DateTime;
-            int soNguoi = int.Parse(teSoNguoi.Text.ToString().Trim());
-            //Du Lieu chua Co khai bao Null
-            String nghiChu = "Không Có";
-            String maPhong = lueMaPhong.Text.ToString();
-            int tienDat = 0;
-            Nullable<DateTime> dateNull = null;
+            try
+            {
+                String maDK = teMaDK.Text.ToString().Trim();
+                String maKhach = lueMaKhach.Text.ToString();
+                DateTime ngayDangKy = dtpNgayDangKy.DateTime;
 
-            EtblDangKy dangky = new EtblDangKy(maDK, maKhach, maPhong, ngayDangKy, dateNull, dateNull, tienDat, soNguoi, nghiChu);
-            BtblDangKy.Update(dangky);
-            
-            dangKy = false;
-            load_Group();
+                // Sử dụng TryParse để kiểm tra và chuyển đổi giá trị số
+                int soNguoi;
+                if (!int.TryParse(teSoNguoi.Text.ToString().Trim(), out soNguoi))
+                {
+                    MessageBox.Show("Số người phải là một số hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Dữ liệu chưa có khai báo null
+                String nghiChu = "Không Có";
+                String maPhong = lueMaPhong.Text.ToString();
+                int tienDat = 0;
+                Nullable<DateTime> dateNull = null;
+
+                // Khởi tạo đối tượng và cập nhật
+                EtblDangKy dangky = new EtblDangKy(maDK, maKhach, maPhong, ngayDangKy, dateNull, dateNull, tienDat, soNguoi, nghiChu);
+                BtblDangKy.Update(dangky);
+
+                // Reset trạng thái
+                dangKy = false;
+                load_Group();
+            }
+            catch (Exception ex)
+            {
+                // Hiển thị thông báo lỗi chi tiết
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void checkButton2_CheckedChanged(object sender, EventArgs e)
