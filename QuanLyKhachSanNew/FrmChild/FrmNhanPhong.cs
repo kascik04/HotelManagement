@@ -47,7 +47,7 @@ namespace QuanLyKhachSanNew.FrmChild
             String maDK = lueMaDK.Text.ToString();
             EtblDangKy tblDangKy = BtblDangKy.SelectByID(maDK);
             //Lay du lieu tu bang khach
-            EtblKhachHang tblKhach = BtblKhachHang.SelectByID(tblDangKy.MaKhach);
+            EtblKhachHang tblKhach = BtblKhachHang.SelectByID(tblDangKy.MaKhach);   
             lueTenKhach.Text = tblKhach.HoDem + " " + tblKhach.Ten;
             lueMaKhach.Text = tblKhach.MaKhach;
             lueCMND.Text = tblKhach.CMND;

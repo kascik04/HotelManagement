@@ -118,9 +118,17 @@ namespace QuanLyKhachSanNew.FrmChild
         /// </summary>
         private void CapNhatTTDK() 
         {
-            dangky.NgayDi = dtpNgayDi.DateTime;
-            BtblDangKy.Update(dangky);
-            MessageBox.Show("Thanh toán thành công.");
+            if (dtpNgayDi.EditValue == null || dtpNgayDi.DateTime == DateTime.MinValue)
+            {
+                MessageBox.Show("Vui lòng nhập thông tin Ngày đi.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                dangky.NgayDi = dtpNgayDi.DateTime;
+                BtblDangKy.Update(dangky);
+                MessageBox.Show("Đã Xử lý Xong", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
         }
 
         /// <summary>
