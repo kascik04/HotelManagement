@@ -9,7 +9,7 @@ namespace AppCode.Connection
 	public static class ConnectionString
 	{
    		// Connect string for application
-		private static string strconnection = @"Data Source=.;Initial Catalog=QuanLyKhachSan;Integrated Security=True;Encrypt=False";
+		private static string strconnection = @"Data Source=DA-LENOVO;Initial Catalog=QuanLyKhachSan;Integrated Security=True";
 		// Connect string for website
 		//private static string strconnection =  ConfigurationManager.ConnectionStrings["AutoNetCoderConnectionString"].ToString();
 		public static string Text
