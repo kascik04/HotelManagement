@@ -30,7 +30,7 @@ namespace AppCode.Business
 			List<EtblPhong> list = new List<EtblPhong>();
 			IDataReader idr = SqlHelper.ExecuteReader(CommandType.StoredProcedure, "tblPhong_DaNhanPhong", null);
 			while (idr.Read())
-				list.Add(GetOnetblPhong(idr));	
+				list.Add(GetOnetblPhong(idr));
 			if (idr.IsClosed == false)
 			{
 				idr.Close();
@@ -39,23 +39,6 @@ namespace AppCode.Business
 			return list;
 		}
 
-        //public static void UpdateStatus(string MaPhong, bool DaDangKy, bool DaNhanPhong)
-        //{
-        //    SqlParameter[] pr = new SqlParameter[3];
-        //    pr[0] = new SqlParameter(@"MaPhong", MaPhong);
-        //    pr[1] = new SqlParameter(@"DaDangKy", DaDangKy);
-        //    pr[2] = new SqlParameter(@"DaNhanPhong", DaNhanPhong);
-
-        //    try
-        //    {
-        //        SqlHelper.ExecuteNonQuery(CommandType.StoredProcedure, "tblPhong_UpdateStatus", pr);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // Xử lý lỗi nếu cần
-        //        throw new Exception("Lỗi khi cập nhật trạng thái phòng: " + ex.Message);
-        //    }
-        //}
 
 
         //---------------------------------------------------------------------------------------------------------//

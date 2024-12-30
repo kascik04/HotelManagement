@@ -9,7 +9,7 @@ namespace AppCode.Entities
         {
         }
 
-        public EtblPhong(string vMaPhong, string vTenPhong, string vLoaiPhong, int vGia)
+        public EtblPhong(string vMaPhong, string vTenPhong, string vLoaiPhong, int vGia )
         {
             this.MaPhong = vMaPhong;
             this.TenPhong = vTenPhong;
