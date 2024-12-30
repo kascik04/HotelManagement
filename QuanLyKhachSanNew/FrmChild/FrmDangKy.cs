@@ -102,6 +102,7 @@ namespace QuanLyKhachSanNew.FrmChild
             }
         }
 
+
         private void tblThem_CheckedChanged(object sender, EventArgs e)
         {
             String maDK = teMaDK.Text.ToString().Trim(); // Lấy giá trị từ ô nhập mã đăng ký
@@ -138,6 +139,7 @@ namespace QuanLyKhachSanNew.FrmChild
                 BtblDangKy.Insert(dangky); // Gọi phương thức thêm mới
                 MessageBox.Show("Đã thêm thông tin đăng ký thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                
                 // Sau khi thêm, chuyển sang trạng thái khác nếu cần
                 dangKy = false;
                 load_Group();
@@ -147,7 +149,6 @@ namespace QuanLyKhachSanNew.FrmChild
                 MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
 
 
         private void checkButton1_CheckedChanged(object sender, EventArgs e)

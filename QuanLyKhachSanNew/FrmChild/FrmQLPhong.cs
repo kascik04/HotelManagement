@@ -46,7 +46,7 @@ namespace QuanLyKhachSanNew.FrmChild
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            EtblPhong phong = new EtblPhong(teMaPhong.Text.ToString().Trim(),teTenPhong.Text.ToString().Trim(),teLoaiPhong.Text.ToString().Trim(),Int32.Parse(teGia.Text.ToString().Trim()));
+            EtblPhong phong = new EtblPhong(teMaPhong.Text.ToString().Trim(), teTenPhong.Text.ToString().Trim(), teLoaiPhong.Text.ToString().Trim(), Int32.Parse(teGia.Text.ToString().Trim()));
             BtblPhong.Insert(phong);
             loadGridView();
         }
