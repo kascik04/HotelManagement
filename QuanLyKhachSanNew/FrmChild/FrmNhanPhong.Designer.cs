@@ -317,7 +317,7 @@
             this.gcDatPhong.Name = "gcDatPhong";
             this.gcDatPhong.Size = new System.Drawing.Size(297, 188);
             this.gcDatPhong.TabIndex = 1;
-            this.gcDatPhong.Text = "Đặt  Phòng";
+            this.gcDatPhong.Text = "Đặt Phòng";
             // 
             // lblNghiChu
             // 

@@ -36,7 +36,7 @@ namespace QuanLyKhachSanNew.FrmChild
             lblMaPhong.Text = "Mã Phòng: " + phong.MaPhong;
             lblTenPhong.Text = "Tên Phòng: " + phong.TenPhong;
             lblLoaiPhong.Text ="Loại Phòng: " + phong.LoaiPhong;
-
+            //lblTrangThai.Text = "Trạng Thái: " + (phong.DaDangKy ? "Đã Đăng Ký" : "Phòng Trống");
         }
 
         private void btnCane_Click(object sender, EventArgs e)

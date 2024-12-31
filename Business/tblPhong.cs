@@ -16,7 +16,9 @@ namespace AppCode.Business
 			List<EtblPhong> list = new List<EtblPhong>();
 			IDataReader idr = SqlHelper.ExecuteReader(CommandType.StoredProcedure, "tblPhong_DaDangKy", null);
 			while (idr.Read())
+			{
 				list.Add(GetOnetblPhong(idr));
+			}
 			if (idr.IsClosed == false)
 			{
 				idr.Close();
@@ -30,7 +32,9 @@ namespace AppCode.Business
 			List<EtblPhong> list = new List<EtblPhong>();
 			IDataReader idr = SqlHelper.ExecuteReader(CommandType.StoredProcedure, "tblPhong_DaNhanPhong", null);
 			while (idr.Read())
+			{
 				list.Add(GetOnetblPhong(idr));
+			}
 			if (idr.IsClosed == false)
 			{
 				idr.Close();
@@ -39,6 +43,16 @@ namespace AppCode.Business
 			return list;
 		}
 
+        public static void UpdateStatus(string maPhong, bool daDangKy, bool daNhanPhong)
+        {
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+        new SqlParameter("@MaPhong", maPhong),
+        new SqlParameter("@DaDangKy", daDangKy),
+        new SqlParameter("@DaNhanPhong", daNhanPhong)
+            };
+            SqlHelper.ExecuteNonQuery(CommandType.StoredProcedure, "tblPhong_UpdateStatus", parameters);
+        }
 
 
         //---------------------------------------------------------------------------------------------------------//
@@ -56,7 +70,9 @@ namespace AppCode.Business
 			DataTable all = SqlHelper.ExecuteData(CommandType.StoredProcedure, "tblPhong_SelectTop", pr);
 			return all;
 		}
-		public static EtblPhong SelectByID(string MaPhong)
+
+
+        public static EtblPhong SelectByID(string MaPhong)
 		{
 			EtblPhong OtblPhong = new EtblPhong();
 			SqlParameter[] pr = new SqlParameter[1];
