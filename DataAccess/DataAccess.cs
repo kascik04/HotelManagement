@@ -141,7 +141,7 @@ namespace AppCode.DataAccess
         public static void CheckPrimaryKeys(string value)
         {
             if (string.IsNullOrEmpty(value))
-            {
+            {   
                 throw new ArgumentException("Tham số 'value' không được null hoặc rỗng.", nameof(value));
             }
 

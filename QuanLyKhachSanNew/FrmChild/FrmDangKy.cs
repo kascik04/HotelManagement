@@ -160,12 +160,28 @@ namespace QuanLyKhachSanNew.FrmChild
             int soNguoi = int.Parse(teSoNguoi.Text.ToString().Trim());
             //Du Lieu chua Co khai bao Null
             String nghiChu = "Không Có";
-            String maPhong = lueMaPhong.Text.ToString();
+            String maPhong = lueMaPhong.Text.ToString().Trim();
             int tienDat = 0;
             Nullable<DateTime> dateNull = null;
 
             EtblDangKy dangky = new EtblDangKy(maDK, maKhach, maPhong, ngayDangKy, dateNull, dateNull, tienDat, soNguoi, nghiChu);
-            //BtblPhong.UpdateStatus(maPhong, true, false);
+            if (!string.IsNullOrEmpty(maPhong))
+            {
+                try
+                {
+                    // Cập nhật trạng thái phòng
+                    BtblPhong.UpdateStatus(maPhong, true, false);
+                    MessageBox.Show("Cập nhật trạng thái phòng thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Lỗi khi cập nhật trạng thái phòng: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Mã phòng không được để trống.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             BtblDangKy.Update(dangky);
             MessageBox.Show("Đã Thêm Phòng Thành Công");
 
