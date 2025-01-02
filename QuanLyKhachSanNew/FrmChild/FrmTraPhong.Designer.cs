@@ -93,6 +93,7 @@
             this.tblDichVuBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tblDichVuTableAdapter = new QuanLyKhachSanNew.QuanLyKhachSanDataSetTableAdapters.tblDichVuTableAdapter();
             this.gcThanhToan = new DevExpress.XtraEditors.GroupControl();
+            this.btn_XuatHoaDon = new System.Windows.Forms.Button();
             this.btnCK = new DevExpress.XtraEditors.SimpleButton();
             this.btnKiemTra = new DevExpress.XtraEditors.SimpleButton();
             this.lblTienDu = new DevExpress.XtraEditors.LabelControl();
@@ -690,6 +691,7 @@
             this.dgvThongTinDV.TabIndex = 0;
             this.dgvThongTinDV.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
+            this.dgvThongTinDV.Click += new System.EventHandler(this.dgvThongTinDV_Click);
             // 
             // gridView1
             // 
@@ -743,6 +745,7 @@
             // 
             // gcThanhToan
             // 
+            this.gcThanhToan.Controls.Add(this.btn_XuatHoaDon);
             this.gcThanhToan.Controls.Add(this.btnCK);
             this.gcThanhToan.Controls.Add(this.btnKiemTra);
             this.gcThanhToan.Controls.Add(this.lblTienDu);
@@ -757,6 +760,16 @@
             this.gcThanhToan.Size = new System.Drawing.Size(978, 174);
             this.gcThanhToan.TabIndex = 5;
             this.gcThanhToan.Text = "Thanh Toán Tiền";
+            // 
+            // btn_XuatHoaDon
+            // 
+            this.btn_XuatHoaDon.Location = new System.Drawing.Point(744, 82);
+            this.btn_XuatHoaDon.Name = "btn_XuatHoaDon";
+            this.btn_XuatHoaDon.Size = new System.Drawing.Size(142, 23);
+            this.btn_XuatHoaDon.TabIndex = 13;
+            this.btn_XuatHoaDon.Text = "Xuất hóa đơn";
+            this.btn_XuatHoaDon.UseVisualStyleBackColor = true;
+            this.btn_XuatHoaDon.Click += new System.EventHandler(this.btn_XuatHoaDon_Click);
             // 
             // btnCK
             // 
@@ -1008,5 +1021,6 @@
         private QuanLyKhachSanDataSetTableAdapters.tblSDDVTableAdapter tblSDDVTableAdapter;
         private DevExpress.XtraGrid.Columns.GridColumn colSoLuong;
         private DevExpress.XtraEditors.SimpleButton btnCK;
+        private System.Windows.Forms.Button btn_XuatHoaDon;
     }
 }
