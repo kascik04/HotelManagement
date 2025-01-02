@@ -66,70 +66,99 @@ namespace QuanLyKhachSanNew.FrmChild
 
         private void btnNhanPhong_Click(object sender, EventArgs e)
         {
+            //// Kiểm tra thông tin bắt buộc
+            //if (string.IsNullOrWhiteSpace(lueMaDK.Text) ||
+            //    string.IsNullOrWhiteSpace(lueMaPhong.Text) ||
+            //    string.IsNullOrWhiteSpace(lueMaKhach.Text) ||
+            //    string.IsNullOrWhiteSpace(lueTenKhach.Text) ||
+            //    string.IsNullOrWhiteSpace(lueCMND.Text) ||
+            //    dtpNgayDen.EditValue == null || // Chỉ kiểm tra ở đây
+            //    string.IsNullOrWhiteSpace(lueSoLuong.Text) ||
+            //    string.IsNullOrWhiteSpace(teTienDat.Text))
+            //{
+            //    MessageBox.Show("Vui lòng nhập đầy đủ thông tin: Mã đăng ký, Mã khách, Tên, CMND, Ngày đến, Số người, Đặt cọc.",
+            //                    "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    return;
+            //}
+
+            //    String maPhong = lueMaPhong.Text.Trim();
+            //try
+            //{
+            //    // Cập nhật trạng thái phòng: DaNhanPhong = true
+            //    BtblPhong.UpdateStatus(maPhong, true, true); // Đặt DaDangKy = true, DaNhanPhong = true
+            //    MessageBox.Show("Trạng thái phòng đã được cập nhật.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //    // Cập nhật thông tin đăng ký trong bảng tblDangKy
+            //    String maDK = lueMaDK.Text.ToString();
+            //    EtblDangKy tblDangKy = BtblDangKy.SelectByID(maDK);
+            //    tblDangKy.MaPhong = maPhong;
+            //    tblDangKy.NgayDen = dtpNgayDen.DateTime; // Gán giá trị vào tblDangKy
+
+
+            //    // Kiểm tra và gán giá trị TienDat
+            //    if (int.TryParse(teTienDat.Text.Trim(), out int tienDat))
+            //    {
+            //        tblDangKy.TienDat = tienDat;
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Số tiền đặt cọc không hợp lệ. Vui lòng nhập số.", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //        return;
+            //    }
+
+            //    // Cập nhật thông tin đăng ký
+            //    BtblDangKy.Update(tblDangKy);
+
+            //    // Thông báo thành công
+            //    MessageBox.Show("Nhận phòng thành công. Trạng thái phòng đã được cập nhật.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            //    // Vô hiệu hóa nút Nhận Phòng và bật các chức năng khác nếu cần
+            //    gcDatPhong.Enabled = true;
+            //    gcDangKyDV.Enabled = true;
+            //    gcNhanPhong.Enabled = false;
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
+
             // Kiểm tra thông tin bắt buộc
-            if (string.IsNullOrWhiteSpace(lueMaDK.Text) ||
-                string.IsNullOrWhiteSpace(lueMaKhach.Text) ||
-                string.IsNullOrWhiteSpace(lueTenKhach.Text) ||
-                string.IsNullOrWhiteSpace(lueCMND.Text) ||
-                dtpNgayDen.EditValue == null ||
-                string.IsNullOrWhiteSpace(lueSoLuong.Text) ||
-                string.IsNullOrWhiteSpace(teTienDat.Text))
+            if (string.IsNullOrWhiteSpace(lueMaDK.Text) || string.IsNullOrWhiteSpace(lueMaPhong.Text))
             {
-                MessageBox.Show("Vui lòng nhập đầy đủ thông tin: Mã đăng ký, Mã khách, Tên, CMND, Ngày đến, Số người, Đặt cọc.",
-                                "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin: Mã đăng ký và Mã phòng.", "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            if (string.IsNullOrWhiteSpace(lueMaPhong.Text))
-            {
-                MessageBox.Show("Vui lòng chọn mã phòng.", "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            // Lấy dữ liệu và thực hiện logic
+           
             String maPhong = lueMaPhong.Text.Trim();
-            String maDK = lueMaDK.Text.Trim();
 
-                        // Kiểm tra giá trị maPhong trước khi cập nhật
-                if (string.IsNullOrEmpty(maPhong))
-                {
-                    MessageBox.Show("Mã phòng không hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-                // Cập nhật trạng thái phòng
-                 BtblPhong.UpdateStatus(maPhong, true, true);
+            try {
 
 
-                // Cập nhật thông tin đăng ký
+                BtblPhong.UpdateStatus(maPhong, true, true); // Đặt DaDangKy = true, DaNhanPhong = true
+                MessageBox.Show("Trạng thái phòng đã được cập nhật.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                String maDK = lueMaDK.Text.ToString();
                 EtblDangKy tblDangKy = BtblDangKy.SelectByID(maDK);
-                tblDangKy.MaPhong = maPhong;
-                tblDangKy.NgayDen = DateTime.Now;
-
-                int tienDat;
-                if (int.TryParse(teTienDat.Text.ToString(), out tienDat))
-                {   
-                    tblDangKy.TienDat = tienDat;
-                }
-                else
-                {
-                    MessageBox.Show("Số tiền đặt cọc không hợp lệ. Vui lòng nhập số.", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
+                tblDangKy.NgayDen = dtpNgayDen.DateTime;
+                tblDangKy.TienDat = int.Parse(teTienDat.Text.ToString());
                 BtblDangKy.Update(tblDangKy);
-
-                // Bật các chức năng liên quan
                 gcDatPhong.Enabled = true;
                 gcDangKyDV.Enabled = true;
                 gcNhanPhong.Enabled = false;
 
-                MessageBox.Show("Nhận phòng thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi đặt phòng: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
 
 
-        private void btnDatPhong_Click(object sender, EventArgs e)
+
+
+    private void btnDatPhong_Click(object sender, EventArgs e)
         {
             // Kiểm tra thông tin bắt buộc
             if (string.IsNullOrWhiteSpace(lueMaDK.Text) || string.IsNullOrWhiteSpace(lueMaPhong.Text))
