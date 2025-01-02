@@ -182,7 +182,7 @@ namespace QuanLyKhachSanNew.FrmChild
 
         private void CapNhatTTPhong()
         {
-            if (!string.IsNullOrEmpty(phong.MaPhong))
+            if (phong != null && !string.IsNullOrEmpty(phong.MaPhong))
             {
                 // Cập nhật trạng thái phòng qua phương thức UpdateStatus
                 BtblPhong.UpdateStatus(phong.MaPhong, false, false);
@@ -190,7 +190,7 @@ namespace QuanLyKhachSanNew.FrmChild
             }
             else
             {
-                MessageBox.Show("Mã phòng không hợp lệ. Không thể cập nhật trạng thái.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Mã phòng không hợp lệ hoặc đối tượng phòng chưa được khởi tạo. Không thể cập nhật trạng thái.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -255,7 +255,7 @@ namespace QuanLyKhachSanNew.FrmChild
             else
             {
                 // Handle the error, e.g., show a message to the user
-                MessageBox.Show("Please enter a valid number for the amount paid.");
+                MessageBox.Show("Hãy nhập số tiền Khách đưa");
             }
         }
 
