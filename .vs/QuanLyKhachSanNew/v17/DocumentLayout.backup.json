@@ -1,89 +1,113 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PROJECT\\HotelManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55AE07CC-2204-4D30-83D6-26CB766C291E}|DataAccess\\DataAccess.csproj|d:\\project\\hotelmanagement\\dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|c:\\users\\sukie\\onedrive\\desktop\\ltcsdl\\hotelmanagement\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmtraphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmtraphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|c:\\users\\sukie\\onedrive\\desktop\\ltcsdl\\hotelmanagement\\hotelmanagement\\quanlykhachsannew\\frmchild\\chuyenkhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\chuyenkhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|c:\\users\\sukie\\onedrive\\desktop\\ltcsdl\\hotelmanagement\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|c:\\users\\sukie\\onedrive\\desktop\\ltcsdl\\hotelmanagement\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|c:\\users\\sukie\\onedrive\\desktop\\ltcsdl\\hotelmanagement\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmtraphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmtraphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AE07CC-2204-4D30-83D6-26CB766C291E}|DataAccess\\DataAccess.csproj|c:\\users\\sukie\\onedrive\\desktop\\ltcsdl\\hotelmanagement\\hotelmanagement\\dataaccess\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AE07CC-2204-4D30-83D6-26CB766C291E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AE07CC-2204-4D30-83D6-26CB766C291E}|DataAccess\\DataAccess.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55AE07CC-2204-4D30-83D6-26CB766C291E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|d:\\project\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmdangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmdangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmdangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|d:\\project\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|D:\\PROJECT\\HotelManagement\\business\\tblphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\business\\tblphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|solutionrelative:business\\tblphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35798AB6-5C5E-48B3-B4FC-9E7A8112785B}|Entities\\Entities.csproj|D:\\PROJECT\\HotelManagement\\entities\\tblphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35798AB6-5C5E-48B3-B4FC-9E7A8112785B}|Entities\\Entities.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\entities\\tblphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35798AB6-5C5E-48B3-B4FC-9E7A8112785B}|Entities\\Entities.csproj|solutionrelative:entities\\tblphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmqlphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmqlphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmqlphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35798AB6-5C5E-48B3-B4FC-9E7A8112785B}|Entities\\Entities.csproj|D:\\PROJECT\\HotelManagement\\entities\\tbldangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35798AB6-5C5E-48B3-B4FC-9E7A8112785B}|Entities\\Entities.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\entities\\tbldangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35798AB6-5C5E-48B3-B4FC-9E7A8112785B}|Entities\\Entities.csproj|solutionrelative:entities\\tbldangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmtrangthaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmtrangthaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmtrangthaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|d:\\project\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmnhanphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmnhanphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmnhanphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|d:\\project\\hotelmanagement\\business\\tbldichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\business\\tbldichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|solutionrelative:business\\tbldichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmthongtinphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmthongtinphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmthongtinphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|d:\\project\\hotelmanagement\\quanlykhachsannew\\frmchild\\frmqlchucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmqlchucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmqlchucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|D:\\PROJECT\\HotelManagement\\business\\tblchucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\business\\tblchucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|solutionrelative:business\\tblchucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmthongtinphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmthongtinphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmthongtinphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmtrangthaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmtrangthaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmtrangthaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35798AB6-5C5E-48B3-B4FC-9E7A8112785B}|Entities\\Entities.csproj|D:\\PROJECT\\HotelManagement\\entities\\tblnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35798AB6-5C5E-48B3-B4FC-9E7A8112785B}|Entities\\Entities.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\entities\\tblnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35798AB6-5C5E-48B3-B4FC-9E7A8112785B}|Entities\\Entities.csproj|solutionrelative:entities\\tblnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmthongtinphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmthongtinphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmthongtinphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmthongtinpm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmthongtinpm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmthongtinpm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|D:\\PROJECT\\HotelManagement\\business\\tbldangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\business\\tbldangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55A0ABCB-9691-4D3C-A8A2-6F20B0148BF0}|Business\\Business.csproj|solutionrelative:business\\tbldangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|D:\\PROJECT\\HotelManagement\\quanlykhachsannew\\frmchild\\frmtraphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\quanlykhachsannew\\frmchild\\frmtraphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D31FD2-0AC0-4D7A-A6B6-316CF63790A1}|QuanLyKhachSanNew\\QuanLyKhachSanNew.csproj|solutionrelative:quanlykhachsannew\\frmchild\\frmtraphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -94,15 +118,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 172,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmHoaDon.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmHoaDon.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmHoaDon.cs*",
+              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmHoaDon.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:20:12.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChuyenKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\ChuyenKhoan.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\ChuyenKhoan.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\ChuyenKhoan.cs",
+              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\ChuyenKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:20:01.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmHoaDon.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmHoaDon.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmHoaDon.cs [Design]*",
+              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmHoaDon.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:06:45.429Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmTraPhong.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs*",
+              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs*",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAswBUBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T05:59:27.999Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "FrmTraPhong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs [Design]*",
+              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T05:56:44.022Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Connect.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\DataAccess\\Connect.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Connect.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\DataAccess\\Connect.cs",
+              "RelativeToolTip": "DataAccess\\Connect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T05:12:22.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "tblDichVu.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Business\\tblDichVu.cs",
+              "RelativeDocumentMoniker": "Business\\tblDichVu.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Business\\tblDichVu.cs",
+              "RelativeToolTip": "Business\\tblDichVu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:04:12.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "tblPhong.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\Business\\tblPhong.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Entities\\tblPhong.cs",
+              "RelativeDocumentMoniker": "Entities\\tblPhong.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Entities\\tblPhong.cs",
+              "RelativeToolTip": "Entities\\tblPhong.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:11:29.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\DataAccess\\DataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\DataAccess\\DataAccess.cs",
+              "RelativeToolTip": "DataAccess\\DataAccess.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwI8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:59:17.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmQLPhong.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLPhong.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmQLPhong.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLPhong.cs",
+              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmQLPhong.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwDAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:16:29.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmDangKy.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
+              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAtwJEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:55:36.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmTrangThaiPhong.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
+              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wEsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:48:31.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "tblPhong.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Business\\tblPhong.cs",
               "RelativeDocumentMoniker": "Business\\tblPhong.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\Business\\tblPhong.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Business\\tblPhong.cs",
               "RelativeToolTip": "Business\\tblPhong.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAwwBgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -112,75 +314,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "FrmTrangThaiPhong.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
-              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA7wEsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:48:31.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmDangKy.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
-              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAtwJEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T16:55:36.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmQLPhong.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLPhong.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmQLPhong.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLPhong.cs",
-              "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmQLPhong.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwDAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T19:16:29.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "tblDichVu.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\Business\\tblDichVu.cs",
-              "RelativeDocumentMoniker": "Business\\tblDichVu.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\Business\\tblDichVu.cs",
-              "RelativeToolTip": "Business\\tblDichVu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T17:04:12.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "tblPhong.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\Entities\\tblPhong.cs",
-              "RelativeDocumentMoniker": "Entities\\tblPhong.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\Entities\\tblPhong.cs",
-              "RelativeToolTip": "Entities\\tblPhong.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T18:11:29.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "FrmDangKy.Designer.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmDangKy.Designer.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.Designer.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.Designer.cs",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmDangKy.Designer.cs",
               "ViewState": "AgIAAIgCAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -189,24 +326,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataAccess.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\DataAccess\\DataAccess.cs",
-              "RelativeDocumentMoniker": "DataAccess\\DataAccess.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\DataAccess\\DataAccess.cs",
-              "RelativeToolTip": "DataAccess\\DataAccess.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAswJIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T17:59:17.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "FrmDangKy.cs [Design]",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs [Design]",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs [Design]",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmDangKy.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T18:32:55.775Z",
@@ -214,11 +338,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "tblDangKy.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\Entities\\tblDangKy.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Entities\\tblDangKy.cs",
               "RelativeDocumentMoniker": "Entities\\tblDangKy.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\Entities\\tblDangKy.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Entities\\tblDangKy.cs",
               "RelativeToolTip": "Entities\\tblDangKy.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwBcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -227,11 +351,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "FrmQLChucVu.cs [Design]",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLChucVu.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLChucVu.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmQLChucVu.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLChucVu.cs [Design]",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmQLChucVu.cs [Design]",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmQLChucVu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T16:31:10.573Z",
@@ -239,11 +363,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "FrmNhanPhong.cs [Design]",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmNhanPhong.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmNhanPhong.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmNhanPhong.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmNhanPhong.cs [Design]",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmNhanPhong.cs [Design]",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmNhanPhong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T17:02:31.453Z",
@@ -251,11 +375,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "FrmThongTinPhong.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAkwBgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -264,11 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "tblChucVu.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\Business\\tblChucVu.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Business\\tblChucVu.cs",
               "RelativeDocumentMoniker": "Business\\tblChucVu.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\Business\\tblChucVu.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Business\\tblChucVu.cs",
               "RelativeToolTip": "Business\\tblChucVu.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAADwv54AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -277,11 +401,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "FrmThongTinPhong.Designer.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.Designer.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.Designer.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.Designer.cs",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.Designer.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAhwGoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -290,11 +414,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "FrmTrangThaiPhong.cs [Design]",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs [Design]",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs [Design]",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmTrangThaiPhong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T17:47:58.89Z",
@@ -302,23 +426,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "tblNhanVien.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\Entities\\tblNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Entities\\tblNhanVien.cs",
               "RelativeDocumentMoniker": "Entities\\tblNhanVien.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\Entities\\tblNhanVien.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Entities\\tblNhanVien.cs",
               "RelativeToolTip": "Entities\\tblNhanVien.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T18:20:15.514Z"
+              "WhenOpened": "2024-12-29T18:20:15.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "FrmThongTinPhong.cs [Design]",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs [Design]",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs [Design]",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmThongTinPhong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T17:49:02.188Z",
@@ -326,38 +451,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "FrmThongTinPM.cs [Design]",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPM.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPM.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmThongTinPM.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPM.cs [Design]",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmThongTinPM.cs [Design]",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmThongTinPM.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:48:05.069Z"
+              "WhenOpened": "2024-12-29T17:48:05.069Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "tblDangKy.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\Business\\tblDangKy.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Business\\tblDangKy.cs",
               "RelativeDocumentMoniker": "Business\\tblDangKy.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\Business\\tblDangKy.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\Business\\tblDangKy.cs",
               "RelativeToolTip": "Business\\tblDangKy.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAswNEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T16:22:56.23Z"
+              "WhenOpened": "2024-12-29T16:22:56.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "FrmTraPhong.Designer.cs",
-              "DocumentMoniker": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.Designer.cs",
-              "ToolTip": "D:\\PROJECT\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.Designer.cs",
+              "ToolTip": "C:\\Users\\sukie\\OneDrive\\Desktop\\LTCSDL\\HotelManagement\\HotelManagement\\QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.Designer.cs",
               "RelativeToolTip": "QuanLyKhachSanNew\\FrmChild\\FrmTraPhong.Designer.cs",
               "ViewState": "AgIAADADAAAAAAAAAAAYwBMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T16:18:36.932Z"
+              "WhenOpened": "2024-12-29T16:18:36.932Z",
+              "EditorCaption": ""
             }
           ]
         }
