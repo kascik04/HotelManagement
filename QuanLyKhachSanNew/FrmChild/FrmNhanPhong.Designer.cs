@@ -1,4 +1,6 @@
-﻿namespace QuanLyKhachSanNew.FrmChild
+﻿using System;
+
+namespace QuanLyKhachSanNew.FrmChild
 {
     partial class FrmNhanPhong
     {
@@ -579,6 +581,7 @@
             this.ResumeLayout(false);
 
         }
+
 
         #endregion
 

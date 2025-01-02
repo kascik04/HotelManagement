@@ -18,7 +18,7 @@ namespace AppCode.DataAccess
             try
             {
                 PrepareCommand(cmdCommand, connect, null, cmdCommandType, cmdCommandString, cmdParameters);
-                    cmdCommand.ExecuteNonQuery();
+                cmdCommand.ExecuteNonQuery();
                 cmdCommand.Parameters.Clear();
                 if (connect.State == ConnectionState.Open) connect.Close();
             }

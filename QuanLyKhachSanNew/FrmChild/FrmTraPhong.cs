@@ -63,11 +63,26 @@ namespace QuanLyKhachSanNew.FrmChild
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            CapNhatTTDK();
-            ThongTinPhieuDK();
-            ThongTinPhong();
-            ThongTinDichVu();
-            TongTienTra();
+            try
+            {
+                // Cập nhật thông tin đăng ký
+                CapNhatTTDK();
+
+                // Cập nhật trạng thái phòng
+                CapNhatTTPhong();
+
+                // Hiển thị thông tin và tính toán
+                ThongTinPhieuDK();
+                ThongTinPhong();
+                ThongTinDichVu();
+                TongTienTra();
+
+                MessageBox.Show("Thanh toán thành công! Thông tin đã được cập nhật.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra trong quá trình thanh toán: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         /// <summary>
@@ -116,20 +131,69 @@ namespace QuanLyKhachSanNew.FrmChild
         /// <summary>
         /// Cập nhật thông tin sau khi thanh toán
         /// </summary>
-        private void CapNhatTTDK() 
+        private void CapNhatTTDK()
         {
-            if (dtpNgayDi.EditValue == null || dtpNgayDi.DateTime == DateTime.MinValue)
+            try
             {
-                MessageBox.Show("Vui lòng nhập thông tin Ngày đi.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (dtpNgayDi.EditValue == null || dtpNgayDi.DateTime == DateTime.MinValue)
+                {
+                    MessageBox.Show("Vui lòng nhập thông tin Ngày đi.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Cập nhật thông tin ngày đi
+                dangky.NgayDi = dtpNgayDi.DateTime;
+
+                // Lấy mã phòng từ bảng Đăng Ký
+                string maPhong = dangky.MaPhong;
+
+                if (!string.IsNullOrEmpty(maPhong))
+                {
+                    phong = BtblPhong.SelectByID(maPhong);
+
+                    if (phong != null)
+                    {
+
+                        // Lưu thông tin vào bảng tblPhong
+                        BtblPhong.UpdateStatus(phong.MaPhong, false, false);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy thông tin phòng.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Mã phòng không hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Xóa thông tin trong bảng tblDangKy
+                BtblDangKy.Delete(dangky.MaDK);
+
+                MessageBox.Show("Thông tin đăng ký đã được thanh toán và xóa khỏi hệ thống.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void CapNhatTTPhong()
+        {
+            if (!string.IsNullOrEmpty(phong.MaPhong))
+            {
+                // Cập nhật trạng thái phòng qua phương thức UpdateStatus
+                BtblPhong.UpdateStatus(phong.MaPhong, false, false);
+                MessageBox.Show("Trạng thái phòng đã được cập nhật.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                dangky.NgayDi = dtpNgayDi.DateTime;
-                BtblDangKy.Update(dangky);
-                MessageBox.Show("Đã Xử lý Xong", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Mã phòng không hợp lệ. Không thể cập nhật trạng thái.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
+
 
         /// <summary>
         /// Load thông tin của phiếu đăng ký
