@@ -163,7 +163,7 @@ namespace AppCode.Business
     {
 
             
-         SqlParameter[] pr = new SqlParameter[9];
+          SqlParameter[] pr = new SqlParameter[9];
         pr[0] = new SqlParameter(@"MaDK", OtblDangKy.MaDK);
         pr[1] = new SqlParameter(@"MaKhach", OtblDangKy.MaKhach);
         pr[2] = new SqlParameter(@"MaPhong", OtblDangKy.MaPhong);

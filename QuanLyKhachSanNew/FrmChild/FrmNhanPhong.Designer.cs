@@ -348,7 +348,6 @@ namespace QuanLyKhachSanNew.FrmChild
             // 
             // lueMaPhong
             // 
-            this.lueMaPhong.EditValue = "Ngày Đến";
             this.lueMaPhong.Location = new System.Drawing.Point(108, 50);
             this.lueMaPhong.Name = "lueMaPhong";
             this.lueMaPhong.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -359,6 +358,7 @@ namespace QuanLyKhachSanNew.FrmChild
             this.lueMaPhong.Properties.ValueMember = "MaPhong";
             this.lueMaPhong.Size = new System.Drawing.Size(110, 20);
             this.lueMaPhong.TabIndex = 12;
+            this.lueMaPhong.EditValueChanged += new System.EventHandler(this.lueMaPhong_EditValueChanged);
             // 
             // tblPhongBindingSource
             // 

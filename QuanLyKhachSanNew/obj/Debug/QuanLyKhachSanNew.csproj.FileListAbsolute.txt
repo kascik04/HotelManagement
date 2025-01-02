@@ -697,3 +697,4 @@ C:\Users\sukie\OneDrive\Desktop\LTCSDL\HotelManagement\HotelManagement\QuanLyKha
 C:\Users\sukie\OneDrive\Desktop\LTCSDL\HotelManagement\HotelManagement\QuanLyKhachSanNew\obj\Debug\QuanLyKhachSanNew.exe
 C:\Users\sukie\OneDrive\Desktop\LTCSDL\HotelManagement\HotelManagement\QuanLyKhachSanNew\obj\Debug\QuanLyKhachSanNew.pdb
 C:\Users\sukie\OneDrive\Desktop\LTCSDL\HotelManagement\HotelManagement\QuanLyKhachSanNew\obj\Debug\QuanLyKhachSanNew.FrmChild.FrmHoaDon.resources
+D:\PROJECT\HotelManagement\QuanLyKhachSanNew\obj\Debug\QuanLyKhachSanNew.FrmChild.FrmHoaDon.resources

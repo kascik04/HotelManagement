@@ -21,8 +21,11 @@ namespace QuanLyKhachSanNew.FrmChild
         private string ngayDi;
         private int soDem;
         private int tongTien;
+        private int giaPhong;
+        private int giaDichVu;
+        private int tienDatCoc;
         public FrmHoaDon(string tenKhach, string diaChi, string dienThoai, string maKhach,
-                     string maPhong, string ngayDen, string ngayDi, int soDem, int tongTien)
+                     string maPhong, string ngayDen, string ngayDi, int soDem, int tongTien, int giaPhong, int giaDichVu, int tienDatCoc)
         {
             InitializeComponent();
             pictureLogo.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -36,6 +39,9 @@ namespace QuanLyKhachSanNew.FrmChild
             this.ngayDi = ngayDi;
             this.soDem = soDem;
             this.tongTien = tongTien;
+            this.giaPhong = giaPhong;
+            this.giaDichVu = giaDichVu;
+            this.tienDatCoc = tienDatCoc;
 
             // Hiển thị dữ liệu
             LoadData();
@@ -54,6 +60,10 @@ namespace QuanLyKhachSanNew.FrmChild
             label34.Text = DateTime.Now.ToString("dd/MM/yyyy"); // Ngày lập hóa đơn
             label29.Text = "Thu Ngân"; // Bạn có thể thay đổi thành tên thu ngân
             label35.Text = tongTien.ToString("N0") + " VND"; // Format số tiền
+
+            label37.Text = giaPhong.ToString("N0") + " VND";
+            label40.Text = giaDichVu.ToString("N0") + " VND";
+            label41.Text = tienDatCoc.ToString("N0") + " VND";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -62,6 +72,21 @@ namespace QuanLyKhachSanNew.FrmChild
         }
 
         private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label36_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label38_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmHoaDon_Load(object sender, EventArgs e)
         {
 
         }

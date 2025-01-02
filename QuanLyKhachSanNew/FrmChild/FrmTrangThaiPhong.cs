@@ -39,7 +39,7 @@ namespace QuanLyKhachSanNew.FrmChild
                 }
                 else 
                 {
-                    if (isDaNhanPhong(phong.MaPhong)) 
+                    if (isDaNhanPhong(phong.MaPhong) || isDaDangKy(phong.MaPhong)) 
                     {
                         pic = pic3;
                     }

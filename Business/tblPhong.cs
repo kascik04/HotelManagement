@@ -49,7 +49,7 @@ namespace AppCode.Business
             {
         new SqlParameter("@MaPhong", maPhong),
         new SqlParameter("@DaDangKy", daDangKy),
-        new SqlParameter("@DaNhanPhong", daNhanPhong)
+        new SqlParameter("@DaNhanPhong", daNhanPhong),
             };
             SqlHelper.ExecuteNonQuery(CommandType.StoredProcedure, "tblPhong_UpdateStatus", parameters);
         }
