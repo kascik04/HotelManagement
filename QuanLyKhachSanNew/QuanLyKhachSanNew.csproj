@@ -267,6 +267,12 @@
     <Compile Include="FrmChild\FrmDuyetWeb.Designer.cs">
       <DependentUpon>FrmDuyetWeb.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmChild\FrmHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChild\FrmHoaDon.Designer.cs">
+      <DependentUpon>FrmHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmChild\FrmNhanPhong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -461,6 +467,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmChild\FrmDuyetWeb.resx">
       <DependentUpon>FrmDuyetWeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChild\FrmHoaDon.resx">
+      <DependentUpon>FrmHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmChild\FrmNhanPhong.resx">
       <DependentUpon>FrmNhanPhong.cs</DependentUpon>

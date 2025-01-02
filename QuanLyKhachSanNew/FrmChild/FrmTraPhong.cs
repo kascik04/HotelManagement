@@ -267,5 +267,36 @@ namespace QuanLyKhachSanNew.FrmChild
             
 
         }
+
+        private void btn_XuatHoaDon_Click(object sender, EventArgs e)
+        {
+            if (dangky != null && phong != null)
+    {
+        FrmHoaDon hd = new FrmHoaDon(
+            tenKhach: lueTenKhach.Text,
+            diaChi: "", // Thay bằng địa chỉ thực tế nếu có
+            dienThoai: "0638462826", // Thay bằng số điện thoại thực tế nếu có
+            maKhach: dangky.MaKhach,
+            maPhong: phong.MaPhong,
+            ngayDen: dangky.NgayDen.HasValue ? dangky.NgayDen.Value.ToString("dd/MM/yyyy") : "",
+            ngayDi: dangky.NgayDi.HasValue ? dangky.NgayDi.Value.ToString("dd/MM/yyyy") : "",
+            soDem: (dangky.NgayDi.HasValue && dangky.NgayDen.HasValue) ? 
+                   (dangky.NgayDi.Value - dangky.NgayDen.Value).Days : 1,
+            tongTien: tongTien
+        );
+
+        hd.Show();
+    }
+    else
+    {
+        MessageBox.Show("Vui lòng chọn thông tin trước khi xuất hóa đơn.", "Thông báo", 
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+    }
+        }
+
+        private void dgvThongTinDV_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
